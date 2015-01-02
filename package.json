@@ -1,0 +1,12 @@
+{
+  "name": "Bluzie",
+  "theme": "syntax",
+  "version": "0.9.0",
+  "private": false,
+  "description": "A dark syntax theme for Atom.",
+  "repository": "https://github.com/jamesottinger/Bluzie",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
