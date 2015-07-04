@@ -19,6 +19,8 @@
 @green: #859900;
 
 @blue-gray: #508aaa;
+@green-mid: #50ad5d;
+@gray-yellow: #767564;
 
 
 .editor-colors {
@@ -105,7 +107,7 @@
 }
 
 .delimiter, .brace {
-  color: #ffffff;
+  color: lime;
 }
 
 .delimiter.period {
@@ -122,10 +124,10 @@
 }
 
 .string {
-  color: #64aeb3;
+  color: @green-mid;
 
   .constant.character.escape {
-    color: @red;
+    color: @gray-yellow;
   }
 
   &.regexp {
